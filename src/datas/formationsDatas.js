@@ -21,7 +21,7 @@ const dataFormations = [
         id: 4,
         title: "Finance And Insurance Financial Planner",
         date: "2013 - 2013",
-        location: "Beijing University Education Institut",
+        societe: "Beijing U Education Institut",
     },
 ]
 

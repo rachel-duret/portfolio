@@ -1,5 +1,30 @@
 .app{
+  width: 100%;
   height: auto;
+  overflow: hidden;
+
+  .loading-page{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      position:fixed;
+      background-color: white;
+      z-index: 99999;
+      animation:loading-page 1s 5s forwards;
+  
+    @keyframes loading-page{
+       to{
+          transform: translateY(100%);
+       }
+    }
+
+    h2{
+      width: 50%;
+      display: flex;
+      margin:auto;
+    }
+  }
 
   .sections{
       margin-top: 150px;

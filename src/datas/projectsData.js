@@ -1,5 +1,5 @@
 export const featuredPortfolio = [
-    {
+    /* {
       id: 1,
       title: "Social Media App",
       img:
@@ -40,11 +40,11 @@ export const featuredPortfolio = [
       img:
         "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
         url:""
-    },
+    }, */
   ];
   
   export const webPortfolio = [
-    {
+    /* {
       id: 1,
       title: "Web Social Media App",
       img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
@@ -79,7 +79,7 @@ export const featuredPortfolio = [
       title: "Web Banking App",
       img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
       url:""
-    },
+    }, */
   ];
   
   export const openclassroomProjets = [

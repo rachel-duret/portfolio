@@ -10,9 +10,16 @@
     align-items: center;
   }
   .aboutMe{
-   width: 80%;
-   height: auto;
-   margin: 0 50px;
+   margin:10px 20px;
+   background-color:rgba($color: #5caae4, $alpha: 0.2);
+  
+
+   p{
+     font-size: 16px;
+     display: inline-block;
+     width: 80%;
+     margin-left: 50px;
+   }
     
   }
 
@@ -23,14 +30,14 @@
     margin-left: 20px;
     @include mobile{
       flex-direction: column;
-      align-items: center;
+      
     }
    
    
 
     .left {
     
-      flex: 0.4;
+    
       overflow: hidden;
       margin-left: 20px;
       a{
@@ -45,9 +52,11 @@
   
     }
     .right {
-      flex: 0.6;
-      position: relative;
       margin-right: 30px;
+
+      @include mobile{
+        flex: 1;
+      }
 
       h2{
         font-size: 20px;
@@ -55,19 +64,23 @@
       .imgContainer{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+       
 
         img{
-          width: 50px;
-          height: 50px;
+          width: 30px;
+          height: 30px;
+          margin-left: 10px;
           &:hover{
-            transform: scale(1.5);
+            transform: scale(2);
           }
         }
         @include mobile{
           flex-direction: row;
-          width: 30px;
-          height: 30px;
+          margin-right: 0;
+          width: 20px;
+          height: 20px;
+        
         
         }
        

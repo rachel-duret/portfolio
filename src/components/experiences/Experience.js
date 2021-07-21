@@ -10,9 +10,9 @@ function Experiences({ datas }) {
           {datas.map(item => (
             <div className="row" key={item.id}>
               <div className="item">
-                <p className="date">{item.date}</p>
-                <p className="date">{item.societe}</p>
-                <p className="location">{item.location}</p>
+                <span className="date">{item.date}</span>
+                <span className="date">{item.societe}</span>
+                <span className="location">{item.location}</span>
               </div>
               <div className="titles">
                 <h3 className="title">{item.title}</h3>

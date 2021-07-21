@@ -11,8 +11,8 @@ function Formation({ datas}) {
             {datas.map(item => (
                 <div className="row" key={item.id}>
                   <div className="item">
-                    <p className="date">{item.date}</p>
-                    <p className="location">{item.societe}</p>
+                    <span className="date">{item.date}</span>
+                    <span className="location">{item.societe}</span>
                   </div>
                   <div className="item">
                     <h3 className="title">{item.title}</h3>

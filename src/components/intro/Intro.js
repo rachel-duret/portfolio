@@ -9,9 +9,7 @@ export default function Intro() {
 
   return (
     <div className="intro" id="intro">
-      <div className="aboutMe"> Après une reconversion dans l’informatique, je recherche aujourd’hui un poste de développeuse web full-stack ou front-end.
-      Mes expériences professionnelles dans le business (finance et développement commercial) m’ont permis de développer des compétences tels que la patience, l’autonomie, et la recherche de solutions tout en travaillant en équipe. Aujourd’hui, je souhaite trouver des missions de développement web dans un environnement dynamique et apprenant. 
-      </div>
+     
       <div className="infoContainer">
         <div className="left">
            <div className="itemContainer">
@@ -48,6 +46,12 @@ export default function Intro() {
             <img src="./assets/mongo.png" alt="" />
           </div>
         </div>
+      </div>
+      <div className="aboutMe">
+        <p>
+        Après une reconversion dans l’informatique, je recherche aujourd’hui un poste de développeuse web full-stack ou front-end.
+      Mes expériences professionnelles dans le business (finance et développement commercial) m’ont permis de développer des compétences tels que la patience, l’autonomie, et la recherche de solutions tout en travaillant en équipe. Aujourd’hui, je souhaite trouver des missions de développement web dans un environnement dynamique et apprenant.
+        </p> 
       </div>
       
     </div>

@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="app">
       <div className="loading-page">
-        <h2 ref={textRef}></h2>
+        <h2 ref={textRef}>.</h2>
         
       </div>
       <div>

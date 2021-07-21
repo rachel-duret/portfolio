@@ -122,7 +122,7 @@ export const featuredPortfolio = [
       id: 6,
       title: "Créer un réseau social d'entreprise",
       img:
-      "https://gifted-feynman-d75e39.netlify.app/static/media/icon-left-font-monochrome-black.19aa0a7c.svg",
+      "https://rachel-groupomania.netlify.app/static/media/icon.a1a768da.png",
       url:"https://rachel-groupomania.netlify.app"
     },
   ];

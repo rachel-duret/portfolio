@@ -9,7 +9,8 @@ export default function Contact() {
 
     emailjs.sendForm('gmail', 'template_cqqokgz', e.target, 'user_T7YNIAjFRo9BR5lYKAU4R')
       .then((result) => {
-          console.log(result.text);
+          alert('Merci pour les message, je vous contact bientôt !')
+          
       }, (error) => {
           console.log(error.text);
       });

@@ -9,7 +9,9 @@
       display: flex;
       justify-content: center;
       position:fixed;
-      background-color: white;
+      background-image:url(./images/portfolio-background1.jpg) ;
+      background-repeat: no-repeat;
+      background-size: contain;
       z-index: 99999;
       animation:loading-page 1s 5s forwards;
   
@@ -23,6 +25,8 @@
       width: 50%;
       display: flex;
       margin:auto;
+      color: white;
+      font-size: 30px;
     }
   }
 

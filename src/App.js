@@ -7,7 +7,9 @@ import "./App.scss"
 import { useState, useEffect, useRef } from "react";
 import Menu from "./components/menu/Menu";
 import Formations from "./components/formations/Formations";
-import { init } from 'ityped'
+import { init } from 'ityped';
+
+
 
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
   const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div className="app">
-      <div className="loading-page">
+      <div className="loading-page" >
         <h2 ref={textRef}>.</h2>
         
       </div>
@@ -32,7 +34,6 @@ function App() {
           <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <div className="sections">
-      
           <Intro />
           <Project/>
           <Experiences />

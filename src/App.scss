@@ -11,7 +11,7 @@
       position:fixed;
       background-image:url(./images/portfolio-background1.jpg) ;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       z-index: 99999;
       animation:loading-page 1s 5s forwards;
   
@@ -25,7 +25,7 @@
       width: 50%;
       display: flex;
       margin:auto;
-      color: white;
+      color: rgb(29, 24, 24);
       font-size: 30px;
     }
   }

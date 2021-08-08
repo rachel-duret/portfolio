@@ -3,7 +3,7 @@ import ProjectList from "../projectList/ProjectList";
 import "./project.scss";
 import {
   openclassroomProjets,
-  featuredPortfolio,
+  appClone,
   webPortfolio,
 } from "../../datas/projectsData";
 
@@ -16,8 +16,8 @@ export default function Project() {
       title: "Openclassroom Projets",
     },
     {
-      id: "featured",
-      title: "Featured",
+      id: "webApp clone",
+      title: "App Clone",
     },
     {
       id: "web",
@@ -30,14 +30,14 @@ export default function Project() {
       case "openclassroom":
         setData(openclassroomProjets);
         break;
-      case "featured":
-        setData(featuredPortfolio);
+      case "webApp clone":
+        setData(appClone);
         break;
       case "web":
         setData(webPortfolio);
         break;  
       default:
-        setData(featuredPortfolio);
+        setData(appClone);
     }
   }, [selected]);
 

@@ -4,31 +4,37 @@
   background-color: white;
   display: flex;
   flex-direction: column;
+  height: auto;
+ 
+ 
 
   @include mobile{
     flex-direction: column;
     align-items: center;
   }
-  .aboutMe{
-   margin:10px 20px;
+  /* .aboutMe{
+    margin-top: 20px;
    border-radius: 5px;
+   overflow-wrap: normal;
    background-color:rgba($color: #5caae4, $alpha: 0.2);
   
 
    p{
      font-size: 16px;
      display: inline-block;
-     width: 80%;
-     margin-left: 50px;
+     text-align: center;
+     margin: 20px;
+
    }
     
-  }
+  } */
 
   .infoContainer{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     margin-left: 20px;
+    justify-content: space-evenly;
     @include mobile{
       flex-direction: column;
       
@@ -37,26 +43,55 @@
    
 
     .left {
-    
-    
       overflow: hidden;
-      margin-left: 20px;
-      a{
-        text-decoration: none;
-        margin-left: 20px;
-        color: black;
-       
+
+      .itemContainer{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+
+        svg{
+          color: rgb(90, 84, 84);
+        }
+
+        a{
+          text-decoration: none;
+          margin-left: 30px;
+          color: black;
+          &:hover{
+            color: #5caae4;
+            transform: scale(1.2);
+          }
+          @include mobile{
+            margin-left: 10px;
+          }
+         
+        }
+
+        span{
+          margin-left: 30px;
+          &:hover{
+            color: #5caae4;
+            transform: scale(1.2);
+          }
+          @include mobile{
+            margin-left: 10px;
+            
+          }
+        }
       }
-      span{
-        margin-left: 20px;
-      }
+      
   
     }
     .right {
-      margin-right: 30px;
+      margin-bottom: 50px;
+      
+
 
       @include mobile{
         flex: 1;
+        height: auto;
+       
       }
 
       h2{
@@ -65,9 +100,9 @@
       .imgContainer{
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-       
-
+        flex-wrap: wrap;
+        align-items: center;
+        
         img{
           width: 30px;
           height: 30px;
@@ -78,11 +113,14 @@
         }
         @include mobile{
           flex-direction: row;
-          margin-right: 0;
           width: 20px;
-          height: 20px;
-        
-        
+          height: 20px;     
+        }
+
+        .front,.back{
+          display: flex;
+          padding-top: 10px;
+          justify-content: space-evenly;
         }
        
 

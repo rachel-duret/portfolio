@@ -20,7 +20,7 @@ function App() {
       showCursor: false,
       backDelay: 1500,
       backSpeed: 30,
-      strings: ["Bienvenu dans mon sit portfolio"]
+      strings: ["Bienvenu"]
     })
   }, [])
   const [menuOpen,setMenuOpen] = useState(false)
